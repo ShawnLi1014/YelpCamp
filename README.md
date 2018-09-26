@@ -1,2 +1,4 @@
 # YelpCamp
-YelpCamp Project
+## YelpCamp Project
+* mongoDB, Express, Node.js
+
