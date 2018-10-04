@@ -11,6 +11,15 @@ body {
 
 #landing-header h1 {
   color: #fff;
+  font-family: 'Charmonman', cursive;
+  font-size:50px;
+  margin-bottom: 40px;
+}
+
+#landing-header a {
+  font-family: 'Charmonman', cursive;
+  font-size:30px;
+  color:beige;
 }
 
 .slideshow { 
