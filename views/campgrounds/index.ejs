@@ -6,15 +6,7 @@
 			<p class="title text-center">View our campgrounds from all over the world</p>
 			<hr>
 			<p>
-				<a class = "btn btn-primary btn-lg" href ="/campgrounds/new">Add New Campground</a>
-			</p>
-			<p>
-				<form action="/campgrounds" method="GET" class="form-inline">
-					<div class="form-group">
-						<input type="text" name="search" placeholder="Campgrounds search" class="form-control">
-						<input type="submit" value="search" class="btn btn-default">
-					</div>
-				</form>
+				<a class = "btn btn-primary btn-lg" href ="/campgrounds/new"> <i class="fas fa-plus"></i> Add New Campground</a>
 			</p>
 		</div>
 	</header>
@@ -33,7 +25,7 @@
 			</div>
 		<% }); %>
 	</div>
-	<nav aria-label="...">
+	<nav aria-label="pagination">
 		<% if (pages && pages > 0) { %>
 			<ul class="pagination justify-content-center">
 				<% if (current == 1) { %>
